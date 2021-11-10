@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Concert+One&family=Gluten:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  /* font-size: 20px; */
+}
+#navbar {
+  background: rgb(7, 81, 194);
+}
+#navbar ul {
+  display: flex;
+  justify-content: center;
+}
+#navbar li {
+  list-style: none;
+  margin: 15px;
+  padding: 0px 10px;
+  font-family: "Carter One";
+  letter-spacing: 2px;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+}
+#navbar li a:hover {
+  color: rgb(11, 219, 247);
+}
+#introSection {
+  height: 500px;
+  color: #f3ebeb;
+  background: center/cover no-repeat
+    url("https://images.unsplash.com/photo-1594567413188-8a248829b0df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 50px;
+  font-family: "Yanone Kaffeesatz";
+  text-shadow: 3px 3px 2px rgb(3, 133, 255);
+  letter-spacing: 3px;
+}
+.small {
+  font-size: 25px;
+}
+#missionSection {
+  height: 300px;
+  text-align: center;
+}
+#missionSection > h2 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+  color: black;
+  font-family: "Yanone Kaffeesatz";
+  letter-spacing: 2px;
+  background: #3498f8;
+}
+.card > h2 {
+  margin: 15px;
+}
+.card p {
+  text-align: justify;
+}
+.card {
+  border: 2px solid black;
+  width: 27%;
+  height: 200px;
+  display: inline-block;
+  margin: 8px;
+  padding: 20px;
+  border-radius: 35px;
+  /* font-size: px; */
+  font-family: "Ubuntu Condensed";
+}
+#sponserSection {
+  height: 250px;
+  /* background: rgb(118, 131, 151); */
+  text-align: center;
+}
+#sponserSection > h2 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: "Yanone Kaffeesatz";
+  background: #3498f8;
+}
+#sponsers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sponsers > img {
+  width: 160px;
+  margin: 10px;
+}
+footer {
+  background: #3498f8;
+  padding: 10px;
+  text-align: center;
+  font-family: "Ubuntu Condened";
+  font-weight: bold;
+  color: white;
+}
+
+/* Contact Page Section */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 40px 0px;
+}
+.form > h1 {
+  text-align: center;
+  font-family: "Ubuntu Condensed";
+  font-size: 30px;
+}
+form{
+  /* background: rgb(11, 91, 128); */
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+input {
+  width: 500px;
+  margin: 8px 0px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 18px;
+}
+textarea {
+  width: 500px;
+  margin: 8px 0px;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid black;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 18px;
+
+}
+.btn {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Ubuntu Condensed";
+  margin: 10px 0px;
+  width: 500px;
+  padding:5px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.btn:hover{
+  background: #3498f8;
+  color: white;
+}

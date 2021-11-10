@@ -1,0 +1,27 @@
+extends base.pug
+
+block style 
+    style 
+            include ../static/style.css
+
+block content 
+    section#introSection 
+            div  Welcome to KD Dance Academy 
+            div.small  Eat Sleep Dance Repeat 
+    section#missionSection 
+            h2 Our Missions
+            div.card 
+                h2 Dance Perfection 
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, minus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, excepturi.
+            div.card 
+                h2 Dance the way you like 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi possimus sequi mollitia quo facere reprehenderit deserunt voluptatibus deleniti et doloremque!
+            div.card 
+                h2 Expert Training 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione obcaecati placeat asperiores nesciunt maiores consectetur velit ab, necessitatibus temporibus aperiam.
+    section#sponserSection 
+            h2 Our Sponsers
+            div#sponsers
+                img(src="static/sponser1.jpeg")
+                img(src="static/sponser2.jpeg")
+                img(src="static/sponser4.jpeg")
